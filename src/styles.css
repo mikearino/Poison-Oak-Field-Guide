@@ -1,3 +1,73 @@
-* {
-  background-color: #7FDBFF;
+body {
+  background-color: #3A3620 !important;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.card {
+  background-color: #D8CC9E !important;
+}
+
+.card-title {
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  background-color: #70BC12;
+}
+
+.row {
+  margin-bottom: 32px;
+}
+
+.jumbotron {
+  font-family: 'Alfa Slab One', cursive;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/44/Poisonoakyoung.JPG");
+  background-size: cover;
+  height: 600px;
+  margin-top: 7px;
+}
+
+.jumbotron h1 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 4px 4px #000;
+}
+
+.container {
+  background-color: #D8D3C0;
+}
+
+
+.card-img-top {
+  height: 300px;
+}
+
+nav {
+  background-color: #D8D3C0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-size: 20px;
+  display: block;
+  color: black;
+  background-color: #D8D3C0;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  margin-right: 150px;
+}
+
+li a:hover {
+  background-color: #70BC12;
+  text-decoration: none;
 }
