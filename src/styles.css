@@ -10,6 +10,13 @@ h1 {
   text-shadow: 2px 2px #000;
 }
 
+
+
+.season {
+  height: 100;
+  max-width:
+  100%;
+}
 .card {
   background-color: #D8CC9E !important;
   opacity: 0.92;
@@ -107,4 +114,8 @@ nav {
     width: 100%;
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
+}
+
+.season-body {
+  padding: 6px;
 }
