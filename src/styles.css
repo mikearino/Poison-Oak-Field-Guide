@@ -10,13 +10,12 @@ h1 {
   text-shadow: 2px 2px #000;
 }
 
-
-
 .season {
   height: 100;
   max-width:
   100%;
 }
+
 .card {
   background-color: #D8CC9E !important;
   opacity: 0.92;
@@ -37,7 +36,7 @@ h1 {
   font-family: 'Alfa Slab One', cursive;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/44/Poisonoakyoung.JPG");
   background-size: cover;
-  height: 600px;
+  height: 500px;
   margin-top: 7px;
 }
 
@@ -51,9 +50,11 @@ h1 {
 .container {
   background-color: #D8D3C0;
   padding: 0 !important;
+}
+
+.container-treatment {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1a/Entrance_to_Abeokuta_Forest_Nursery.jpg");
   background-size: cover;
-
 }
 
 .card-img-top {
