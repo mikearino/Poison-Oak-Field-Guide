@@ -17,9 +17,22 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Webpack Template', //CHANGE THIS TITLE
+      title: 'Poison Oak Field Guide',
+      filename: 'index.html',
       template: './src/index.html',
       inject: 'body',
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'season.html',
+      template: './src/season.html',
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'treatment.html',
+      template: './src/treatment.html',
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'map.html',
+      template: './src/map.html',
     }),
   ],
   module: {

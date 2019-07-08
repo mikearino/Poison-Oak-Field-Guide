@@ -3,15 +3,23 @@ body {
   font-family: 'Nanum Gothic', sans-serif;
 }
 
+h1 {
+  padding: 8px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px #000;
+}
+
 .card {
   background-color: #D8CC9E !important;
+  opacity: 0.92;
 }
 
 .card-title {
   color: white;
   text-align: center;
   font-weight: 800;
-  background-color: #70BC12;
+  background-color: #228B22;
 }
 
 .row {
@@ -35,6 +43,10 @@ body {
 
 .container {
   background-color: #D8D3C0;
+  padding: 0 !important;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1a/Entrance_to_Abeokuta_Forest_Nursery.jpg");
+  background-size: cover;
+
 }
 
 .card-img-top {
@@ -43,11 +55,16 @@ body {
 
 nav {
   background-color: #D8D3C0;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
   width: 100%;
   overflow: auto;
+  margin: 0;
+  padding: 0 !important;
+  opacity: 0.92;
 }
 
 .navbar a {
@@ -55,7 +72,7 @@ nav {
   font-size: 20px;
   display: block;
   color: black;
-  background-color: #D8D3C0;
+  background-color: #D8CC9E;
   text-align: center;
   padding: 20px 24px;
   text-decoration: none;
@@ -63,8 +80,24 @@ nav {
 }
 
 .navbar a:hover {
-  background-color: #70BC12;
+  background-color: #228B22;
   text-decoration: none;
+  color: white;
+}
+
+.symptomImg {
+  border-radius: 10%;
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin-right: 16px;
+}
+.treatmentImg {
+  border-radius: 10%;
+  height: 250px;
+  width: 250px;
+  float: right;
+  margin-right: 16px;
 }
 
 @media screen and (max-width: 500px) {
