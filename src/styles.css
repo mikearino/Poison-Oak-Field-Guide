@@ -1,7 +1,7 @@
-/* body {
+body {
   background-color: #3A3620 !important;
   font-family: 'Nanum Gothic', sans-serif;
-} */
+}
 
 .card {
   background-color: #D8CC9E !important;
@@ -37,7 +37,6 @@
   background-color: #D8D3C0;
 }
 
-
 .card-img-top {
   height: 300px;
 }
@@ -46,17 +45,13 @@ nav {
   background-color: #D8D3C0;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.navbar {
+  width: 100%;
+  overflow: auto;
 }
 
-li {
+.navbar a {
   float: left;
-}
-
-li a {
   font-size: 20px;
   display: block;
   color: black;
@@ -64,10 +59,19 @@ li a {
   text-align: center;
   padding: 20px 24px;
   text-decoration: none;
-  margin-right: 150px;
+  width: 25%;
 }
 
-li a:hover {
+.navbar a:hover {
   background-color: #70BC12;
   text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
 }
