@@ -3,6 +3,13 @@
   font-family: 'Nanum Gothic', sans-serif;
 } */
 
+
+
+.season {
+  height: 100;
+  max-width:
+  100%;
+}
 .card {
   background-color: #D8CC9E !important;
 }
@@ -70,4 +77,8 @@ li a {
 li a:hover {
   background-color: #70BC12;
   text-decoration: none;
+}
+
+.season-body {
+  padding: 6px;
 }

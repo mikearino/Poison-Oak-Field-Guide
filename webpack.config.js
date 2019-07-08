@@ -18,7 +18,7 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
       title: 'Webpack Template', //CHANGE THIS TITLE
-      template: './src/index.html',
+      template: './src/season.html',
       inject: 'body',
     }),
   ],
@@ -46,6 +46,24 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'eslint-loader',
+      },
+      {
+        test: /\.(gif|png|jpe?g|svg|bmp)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'assets/images/'
+            }
+          }
+        ]
+      },
+      {
+        test:/\.html$/,
+        use: [
+          'html-loader'
+        ]
       },
     ],
   },
