@@ -56,6 +56,8 @@ h1 {
 div .game2, div .game3 {
   display: none;
 }
+
+/*--------Game Buttons--------*/
 .poisonButton {
   color: white;
   border-radius: 50%;
@@ -115,8 +117,8 @@ div .game2, div .game3 {
 }
 
 .game2plant2 {
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   margin-top: 400px;
   margin-left: 370px;
 }
@@ -158,7 +160,6 @@ div .game2, div .game3 {
 
 .card {
   background-color: #D8CC9E !important;
-  opacity: 0.92;
 }
 
 .card-title {
@@ -174,7 +175,7 @@ div .game2, div .game3 {
 
 .jumbotron {
   font-family: 'Alfa Slab One', cursive;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/44/Poisonoakyoung.JPG");
+  background-image: url("./assets/images/mainBG.jpg");
   background-size: cover;
   height: 500px;
   margin-top: 7px;
@@ -193,7 +194,7 @@ div .game2, div .game3 {
 }
 
 .container-treatment {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1a/Entrance_to_Abeokuta_Forest_Nursery.jpg");
+  background-image: url("");
   background-size: cover;
 }
 
@@ -201,13 +202,12 @@ div .game2, div .game3 {
   height: 300px;
 }
 
-
+/*--------Nav--------*/
 .navbar {
   width: 100%;
   overflow: auto;
   margin: 0;
   padding: 0 !important;
-  opacity: 0.92;
 }
 
 .navbar a {
@@ -243,7 +243,6 @@ div .game2, div .game3 {
   margin-right: 16px;
 }
 
-
 .season-body {
   padding: 6px;
 }
@@ -253,6 +252,6 @@ div .game2, div .game3 {
     float: none;
     display: block;
     width: 100%;
-    text-align: left; /* If you want the text to be left-aligned on small screens */
+    text-align: left;
   }
 }
