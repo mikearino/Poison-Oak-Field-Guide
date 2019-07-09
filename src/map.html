@@ -29,20 +29,42 @@
   </div>
   <br>
   <div class = "container" id="map"></div>
+  <span id = "api"></span>
   <script>
-  var myLatLng = {lat: 45.5155, lng: -122.6793};
+
   var map;
   function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 45.5155, lng: -122.6793},
-      zoom: 10
+      zoom: 9
     });
+    var markers = [
+      ['Portland', 45.5155, -122.6793],
+      ['Forrest Park', 45.5842, -122.8121],
+      ['Mt. Tabor Park', 45.5180, -122.5948],
+      ['Hood River', 45.7054, -121.5215],
+      ['Lacamas Lake', 45.6184, -122.4276],
+      ['Tyron Creek', 45.2614, -122.4044],
+      ['']
+    ];
 
-    var maker = new google.maps.Marker({
-      position: myLatLng,
-      map: map,
-      title: 'Poison Oak'
-    });
+    var infoWindowContent = [];
+
+    var infoWindow = new google.maps.InfoWindow(), marker, i;
+    for (i = 0; i < markers.length; i++) {
+      var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
+      marker = new google.maps.Marker({
+        position: position,
+        map: map,
+        title: markers[i][0]
+      });
+    }
+  //
+  //   var maker = new google.maps.Marker({
+  //     position: forrestPark,
+  //     map: map,
+  //     title: 'Poison Oak'
+  //   });
   }
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbFgi-9P2b1_bLz_pm3FKLDJrEN6rRwac&callback=initMap"
