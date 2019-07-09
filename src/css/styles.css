@@ -1,0 +1,257 @@
+body {
+  background-color: #3A3620 !important;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+nav {
+  background-color: #D8D3C0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding: 8px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px #000;
+}
+
+.nextBtn {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
+  width: 20%;
+  height: 50px;
+  margin-top: 16px;
+  font-size: 24px !important;
+}
+
+
+.season {
+  height: auto;
+  max-width: 100%;
+}
+
+.game1Img {
+  height: 1140px;
+  width: 100%;
+  background-image: url("../img/game1.jpg");
+  background-size: cover;
+}
+
+.game2Img {
+  height: 1140px;
+  width: 100%;
+  background-image: url("../img/game2.jpg");
+  background-size: cover;
+}
+
+.game3Img {
+  height: 1140px;
+  width: 100%;
+  background-image: url("../img/game3.jpg");
+  background-size: cover;
+}
+
+div .game2, div .game3 {
+  display: none;
+}
+
+/*--------Game Buttons--------*/
+.poisonButton {
+  color: white;
+  border-radius: 50%;
+  background-color: red;
+  opacity: 0;
+  position: absolute;
+
+}
+
+.poisonButton:hover {
+  text-decoration: none;
+  cursor: default !important;
+}
+
+.poisonButtonShow {
+  opacity: 0.5;
+  -webkit-transition: opacity 1s ease-in;
+   -moz-transition: opacity 1s ease-in;
+   -o-transition: opacity 1s ease-in;
+   -ms-transition: opacity 1s ease-in;
+   transition: opacity 1s ease-in;
+}
+
+.game1plant1 {
+  height: 150px;
+  width: 150px;
+  margin-top: 950px;
+  margin-left: 375px;
+}
+
+.game1plant2 {
+  height: 200px;
+  width: 200px;
+  margin-top: 670px;
+  margin-left: 0;
+}
+
+.game1plant3 {
+  height: 150px;
+  width: 150px;
+  margin-top: 680px;
+  margin-left: 965px;
+}
+
+.game1plant4 {
+  height: 150px;
+  width: 150px;
+  margin-top: 350px;
+  margin-left: 440px;
+}
+
+.game2plant1 {
+  height: 200px;
+  width: 200px;
+  margin-top: 150px;
+  margin-left: 170px;
+}
+
+.game2plant2 {
+  height: 350px;
+  width: 350px;
+  margin-top: 400px;
+  margin-left: 370px;
+}
+
+.game2plant3 {
+  height: 150px;
+  width: 150px;
+  margin-top: 400px;
+  margin-left: 970px;
+}
+
+.game3plant1 {
+  height: 200px;
+  width: 200px;
+  margin-top: 700px;
+  margin-left: 500px;
+}
+
+.game3plant2 {
+  height: 300px;
+  width: 300px;
+  margin-top: 645px;
+  margin-left: 165px;
+}
+
+.game3plant3 {
+  height: 320px;
+  width: 320px;
+  margin-top: 800px;
+  margin-left: 800px;
+}
+
+.game3plant4 {
+  height: 200px;
+  width: 200px;
+  margin-top: 200px;
+  margin-left:30px;
+}
+
+.card {
+  background-color: #D8CC9E !important;
+}
+
+.card-title {
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  background-color: #228B22;
+}
+
+.row {
+  margin-bottom: 32px;
+}
+
+.jumbotron {
+  font-family: 'Alfa Slab One', cursive;
+  background-image: url("../img/mainBG.jpg");
+  background-size: cover;
+  height: 500px;
+  margin-top: 7px;
+}
+
+.jumbotron h1 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 4px 4px #000;
+}
+
+.container {
+  background-color: #D8D3C0;
+  padding: 0 !important;
+}
+
+.container-treatment {
+  background-image: url("");
+  background-size: cover;
+}
+
+.card-img-top {
+  height: 300px;
+}
+
+/*--------Nav--------*/
+.navbar {
+  width: 100%;
+  overflow: auto;
+  margin: 0;
+  padding: 0 !important;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  display: block;
+  color: black;
+  background-color: #D8CC9E;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  width: 20%;
+}
+
+.navbar a:hover {
+  background-color: #228B22;
+  text-decoration: none;
+  color: white;
+}
+
+.symptomImg {
+  border-radius: 10%;
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin-right: 16px;
+}
+.treatmentImg {
+  border-radius: 10%;
+  height: 250px;
+  width: 250px;
+  float: right;
+  margin-right: 16px;
+}
+
+.season-body {
+  padding: 6px;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
