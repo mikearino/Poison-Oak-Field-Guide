@@ -34,6 +34,10 @@ module.exports = {
       filename: 'map.html',
       template: './src/map.html',
     }),
+    new HtmlWebpackPlugin({
+      filename: 'game.html',
+      template: './src/game.html',
+    }),
   ],
   module: {
     rules: [
