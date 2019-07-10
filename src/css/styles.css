@@ -10,8 +10,10 @@ nav {
 }
 
 h1 {
-  color: #edebe2;
-  text-shadow: 4px 4px #3A3620;
+  padding: 16px;
+  color: white;
+  text-shadow: 4px 4px #000;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 p {
@@ -24,14 +26,19 @@ header {
   margin-bottom: 32px;
 }
 
-footer {
+section {
+  background-color: #D8CC9E;
+}
+
+.footer {
   width: 100%;
   height: 150px;
   background-color: #69613b;
+  color: #edebe2;
 }
 
-section {
-  background-color: #D8CC9E;
+.footer section small {
+  color: #292e23;
 }
 
 .nextBtn {
@@ -193,6 +200,10 @@ div .game2, div .game3 {
   height: 300px;
 }
 
+.index-images {
+  height: 525px;
+}
+
 .jumbotron {
   font-family: 'Alfa Slab One', cursive;
   background-image: url("../img/mainBG.jpg");
@@ -294,9 +305,10 @@ div .game2, div .game3 {
   padding-bottom: 6rem;
 }
 .masthead h3 {
-  color: #edebe2;
-  text-shadow: 2px 2px #3A3620;
+  color: white;
+  text-shadow: 3px 3px #000;
   font-size: 2em !important;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 .masthead .masthead-heading {
@@ -324,20 +336,4 @@ div .game2, div .game3 {
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
-}
-
-.btn-social {
-  border-radius: 100%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  width: 3.25rem;
-  height: 3.25rem;
-  font-size: 1.25rem;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
