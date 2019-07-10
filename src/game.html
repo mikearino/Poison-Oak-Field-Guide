@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
+  <script src="https://kit.fontawesome.com/4a05de5825.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Nanum+Gothic&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <title>Poison Oak Treatments</title>
 </head>
 <body>
-  <nav class="navbar">
-    <a href="index.html">Home</a>
-    <a href="season.html">Seasons</a>
-    <a href="treatment.html">Treatment</a>
-    <a href="map.html">Map</a>
-    <a href="game.html">Game</a>
+
+  <nav class="navbar navbar-expand-lg text-uppercase fixed-top">
+    <div class="container">
+      <a href="index.html">Home</a>
+      <a href="identify.html">Identify</a>
+      <a href="map.html">Map</a>
+      <a href="treatment.html">Treatment</a>
+      <a href="game.html">Game</a>
+    </div>
   </nav>
+
+  <header class="masthead container-treatment text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+      <h1 class="masthead-heading text-uppercase mb-0">Poison Oak Field Guide</h1>
+      <h3 class="masthead-subheading font-weight-light mb-0">Play</h3>
+    </div>
+  </header>
+
   <div class="container">
     <div class="row">
       <div class="col-md-12">
 
         <div class="card game1">
           <h3 class="card-title">iSPy Poison Oak</h3>
-          <h2>Find all 4 poison oak plants</h2>
+          <h2 class="text-center">Find all 4 poison oak plants</h2>
           <div class="card-body">
             <div class="game1Img">
               <button class="poisonButton game1plant1" type="button" name="button"></button>
@@ -33,7 +45,7 @@
 
         <div class="card game2">
           <h3 class="card-title">Game 2</h3>
-          <h2>Find all 3 poison oak plants</h2>
+          <h2 class="text-center">Find all 3 poison oak plants</h2>
           <div class="card-body">
             <div class="game2Img">
               <button class="poisonButton game2plant1" type="button" name="button"></button>
@@ -46,7 +58,7 @@
 
         <div class="card game3">
           <h3 class="card-title">Game 3</h3>
-          <h2>Find all 4 poison oak plants</h2>
+          <h2 class="text-center">Find all 4 poison oak plants</h2>
           <div class="card-body">
             <div class="game3Img">
               <button class="poisonButton game3plant1" type="button" name="button"></button>
@@ -61,5 +73,49 @@
       </div>
     </div>
   </div>
+
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+
+        <!-- Footer Location -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Location</h4>
+          <p class="lead mb-0">400 SW 6th Ave #800,<br> Portland, OR 97204</p>
+        </div>
+
+        <!-- Footer Social Icons -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Social Links</h4>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-2x fa-facebook-f"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-2x fa-twitter"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-2x fa-linkedin-in"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-2x fa-dribbble"></i>
+          </a>
+        </div>
+
+        <!-- Footer About Text -->
+        <div class="col-lg-4">
+          <h4 class="text-uppercase mb-4">Epicodus</h4>
+          <p class="lead mb-0">Epicodus group project
+            <a href="http://epicodus.com">Epicodus</a>.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <section class="copyright py-4 text-center text-white">
+        <div class="container">
+          <small>Copyright &copy; Poison Oak Field Guide 2019</small>
+        </div>
+      </section>
+    </footer>
 </body>
 </html>

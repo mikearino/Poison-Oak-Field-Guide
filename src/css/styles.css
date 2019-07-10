@@ -16,7 +16,7 @@ h1 {
   font-family: 'Alfa Slab One', cursive;
 }
 
-p {
+p, ul, ol {
   color: #292e23;
   font-size: 1.4rem;
 }
@@ -202,6 +202,14 @@ div .game2, div .game3 {
 
 .index-images {
   height: 525px;
+}
+
+.season-images {
+  height: 750px;
+}
+
+.type-images {
+  height: 700px;
 }
 
 .jumbotron {
