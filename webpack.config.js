@@ -23,8 +23,8 @@ module.exports = {
       inject: 'body',
     }),
     new HtmlWebpackPlugin({
-      filename: 'season.html',
-      template: './src/season.html',
+      filename: 'identify.html',
+      template: './src/identify.html',
     }),
     new HtmlWebpackPlugin({
       filename: 'treatment.html',
