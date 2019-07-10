@@ -25,4 +25,13 @@ $(document).ready(function() {
     $('.game1').fadeIn(1500);
   });
 
+  $('#showImg').click(function() {
+    $('#showImg').hide();
+    $('.hiddenImg').show();
+  });
+
+  $('.hiddenImg').click(function() {
+    $('.hiddenImg').hide();
+    $('#showImg').show();
+  });
 });
