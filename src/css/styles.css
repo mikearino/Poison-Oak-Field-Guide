@@ -4,16 +4,34 @@ body {
 }
 
 nav {
-  background-color: #D8D3C0;
+  background-color: #D8CC9E;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  padding: 8px;
-  text-align: center;
-  color: white;
-  text-shadow: 2px 2px #000;
+  color: #edebe2;
+  text-shadow: 4px 4px #3A3620;
+}
+
+p {
+  color: #292e23;
+  font-size: 1.4rem;
+}
+
+header {
+  height: 600px;
+  margin-bottom: 32px;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #69613b;
+}
+
+section {
+  background-color: #D8CC9E;
 }
 
 .nextBtn {
@@ -160,17 +178,19 @@ div .game2, div .game3 {
 
 .card {
   background-color: #D8CC9E !important;
+  margin-bottom: 32px;
 }
 
 .card-title {
   color: white;
   text-align: center;
   font-weight: 800;
-  background-color: #228B22;
+  background-color: #336600;
+  color: #c5d9ae;
 }
 
-.row {
-  margin-bottom: 32px;
+.card-img-top {
+  height: 300px;
 }
 
 .jumbotron {
@@ -189,18 +209,19 @@ div .game2, div .game3 {
 }
 
 .container {
-  background-color: #D8D3C0;
-  padding: 0 !important;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
 }
 
 .container-treatment {
-  background-image: url("");
+  background-image: url('../img/MainBG.jpg');
   background-size: cover;
 }
 
-.card-img-top {
-  height: 300px;
-}
 
 /*--------Nav--------*/
 .navbar {
@@ -223,7 +244,7 @@ div .game2, div .game3 {
 }
 
 .navbar a:hover {
-  background-color: #228B22;
+  background-color: #336600;
   text-decoration: none;
   color: white;
 }
@@ -243,6 +264,7 @@ div .game2, div .game3 {
   float: left;
   margin-right: 16px;
 }
+
 #showImg {
   border-radius: 10%;
   height: 250px;
@@ -262,11 +284,55 @@ div .game2, div .game3 {
   padding: 6px;
 }
 
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
+.masthead {
+  padding-top: calc(6rem + 74px);
+  padding-bottom: 6rem;
+}
+.masthead h3 {
+  color: #edebe2;
+  text-shadow: 2px 2px #3A3620;
+  font-size: 2em !important;
+}
+
+.masthead .masthead-heading {
+  font-size: 2.75rem;
+  line-height: 2.75rem;
+}
+
+.masthead .masthead-subheading {
+  font-size: 1.25rem;
+}
+
+.masthead .masthead-avatar {
+  width: 15rem;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    padding-top: calc(12rem + 104px);
+    padding-bottom: 6rem;
   }
+  .masthead .masthead-heading {
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.5rem;
+  }
+}
+
+.btn-social {
+  border-radius: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
