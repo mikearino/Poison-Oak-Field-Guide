@@ -262,6 +262,11 @@ div .game2, div .game3 {
   padding: 6px;
 }
 
+#pin {
+  width: 45px;
+  height:60px;
+}
+
 @media screen and (max-width: 500px) {
   .navbar a {
     float: none;
