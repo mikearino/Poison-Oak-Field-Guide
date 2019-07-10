@@ -235,6 +235,21 @@ div .game2, div .game3 {
   float: left;
   margin-right: 16px;
 }
+.hiddenImg {
+  display: none;
+  border-radius: 10%;
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin-right: 16px;
+}
+#showImg {
+  border-radius: 10%;
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin-right: 16px;
+}
 .treatmentImg {
   border-radius: 10%;
   height: 250px;
