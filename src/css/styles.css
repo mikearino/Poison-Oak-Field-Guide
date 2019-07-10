@@ -265,7 +265,7 @@ div .game2, div .game3 {
   height: 250px;
   width: 250px;
   float: left;
-  margin-right: 16px;
+  margin-right: 25px;
 }
 .hiddenImg {
   display: none;
@@ -287,13 +287,20 @@ div .game2, div .game3 {
   width: 250px;
   float: left;
   margin-right: 16px;
+  color: white;
+  background-color: black;
+}
+
+#warning{
+  color:red;
+  font-size: 40px;
 }
 .treatmentImg {
   border-radius: 10%;
   height: 250px;
   width: 250px;
-  float: right;
-  margin-right: 16px;
+  float: left;
+  margin-right: 20px;
 }
 
 .season-body {
