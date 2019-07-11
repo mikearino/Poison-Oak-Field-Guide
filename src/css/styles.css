@@ -313,6 +313,14 @@ div .game2, div .game3 {
   margin-right: 35px;
 }
 
+#myCarousel {
+  /* height: 500px; */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .treatmentImg {
   border-radius: 10%;
   height: 250px;
