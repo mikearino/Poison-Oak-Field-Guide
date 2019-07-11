@@ -30,6 +30,10 @@ section {
   background-color: #D8CC9E;
 }
 
+div .game2, div .game3 {
+  display: none;
+}
+
 #map {
   padding-left: 32px;
   padding-right: 32px;
@@ -55,6 +59,13 @@ section {
   font-size: 40px;
 }
 
+#myCarousel {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .game1Img, .game2Img, .game3Img, #map {
   border-radius: 2%;
 }
@@ -62,6 +73,7 @@ section {
 .footer {
   width: 100%;
   height: 150px;
+  padding-top: 16px;
   background-color: #69613b;
   color: #edebe2;
 }
@@ -79,7 +91,6 @@ section {
   margin-top: 16px;
   font-size: 24px !important;
 }
-
 
 .season {
   height: auto;
@@ -105,10 +116,6 @@ section {
   width: 100%;
   background-image: url("../img/game3.jpg");
   background-size: cover;
-}
-
-div .game2, div .game3 {
-  display: none;
 }
 
 /*--------Game Buttons--------*/
@@ -304,21 +311,14 @@ div .game2, div .game3 {
   float: left;
   margin-right: 35px;
 }
+
 .hiddenImg {
   display: none;
   border-radius: 10%;
   height: 250px;
   width: 250px;
   float: left;
-  margin-right: 35px;
-}
-
-#myCarousel {
-  /* height: 500px; */
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  margin-right: 16px;
 }
 
 .treatmentImg {
