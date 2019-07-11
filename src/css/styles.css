@@ -35,6 +35,26 @@ section {
   padding-right: 32px;
 }
 
+#pin {
+  width: 45px;
+  height: 60px;
+}
+
+#showImg {
+  border-radius: 10%;
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin-right: 16px;
+  color: white;
+  background-color: black;
+}
+
+#warning{
+  color:red;
+  font-size: 40px;
+}
+
 .game1Img, .game2Img, .game3Img, #map {
   border-radius: 2%;
 }
@@ -67,21 +87,21 @@ section {
 }
 
 .game1Img {
-  height: 1140px;
+  height: 1040px;
   width: 100%;
   background-image: url("../img/game1.jpg");
   background-size: cover;
 }
 
 .game2Img {
-  height: 1140px;
+  height: 1040px;
   width: 100%;
   background-image: url("../img/game2.jpg");
   background-size: cover;
 }
 
 .game3Img {
-  height: 1140px;
+  height: 1040px;
   width: 100%;
   background-image: url("../img/game3.jpg");
   background-size: cover;
@@ -96,7 +116,7 @@ div .game2, div .game3 {
   color: white;
   border-radius: 50%;
   background-color: red;
-  opacity: 0;
+  opacity: .0;
   position: absolute;
 
 }
@@ -107,7 +127,7 @@ div .game2, div .game3 {
 }
 
 .poisonButtonShow {
-  opacity: 0.5;
+  opacity: 0.4;
   -webkit-transition: opacity 1s ease-in;
    -moz-transition: opacity 1s ease-in;
    -o-transition: opacity 1s ease-in;
@@ -118,71 +138,71 @@ div .game2, div .game3 {
 .game1plant1 {
   height: 150px;
   width: 150px;
-  margin-top: 950px;
-  margin-left: 375px;
+  margin-top: 890px;
+  margin-left: 360px;
 }
 
 .game1plant2 {
   height: 200px;
   width: 200px;
-  margin-top: 670px;
+  margin-top: 630px;
   margin-left: 0;
 }
 
 .game1plant3 {
   height: 150px;
   width: 150px;
-  margin-top: 680px;
-  margin-left: 965px;
+  margin-top: 690px;
+  margin-left: 920px;
 }
 
 .game1plant4 {
   height: 150px;
   width: 150px;
-  margin-top: 350px;
-  margin-left: 440px;
+  margin-top: 330px;
+  margin-left: 420px;
 }
 
 .game2plant1 {
   height: 200px;
   width: 200px;
   margin-top: 150px;
-  margin-left: 170px;
+  margin-left: 140px;
 }
 
 .game2plant2 {
-  height: 350px;
-  width: 350px;
-  margin-top: 400px;
-  margin-left: 370px;
+  height: 150px;
+  width: 150px;
+  margin-top: 420px;
+  margin-left: 350px;
 }
 
 .game2plant3 {
-  height: 150px;
-  width: 150px;
-  margin-top: 400px;
-  margin-left: 970px;
+  height: 210px;
+  width: 210px;
+  margin-top: 450px;
+  margin-left: 490px;
 }
 
 .game3plant1 {
-  height: 200px;
-  width: 200px;
-  margin-top: 700px;
-  margin-left: 500px;
+  height: 225px;
+  width: 225px;
+  margin-top: 520px;
+  margin-left: 650px;
 }
 
 .game3plant2 {
   height: 300px;
   width: 300px;
-  margin-top: 645px;
-  margin-left: 165px;
+  margin-top: 625px;
+  margin-left: 135px;
 }
 
 .game3plant3 {
   height: 320px;
   width: 320px;
-  margin-top: 800px;
-  margin-left: 800px;
+  margin-top: 700px;
+  margin-left: 750px;
 }
 
 .game3plant4 {
@@ -282,7 +302,7 @@ div .game2, div .game3 {
   height: 250px;
   width: 250px;
   float: left;
-  margin-right: 25px;
+  margin-right: 35px;
 }
 .hiddenImg {
   display: none;
@@ -290,17 +310,8 @@ div .game2, div .game3 {
   height: 250px;
   width: 250px;
   float: left;
-  margin-right: 16px;
+  margin-right: 35px;
 }
-
-#pin {
-  width: 45px;
-  height: 60px;
-}
-
-/* .carouselPic {
-  height: 300px;
-} */
 
 #myCarousel {
   /* height: 500px; */
@@ -310,30 +321,21 @@ div .game2, div .game3 {
   display: block;
 }
 
-#showImg {
-  border-radius: 10%;
-  height: 250px;
-  width: 250px;
-  float: left;
-  margin-right: 16px;
-  color: white;
-  background-color: black;
-}
-
-#warning{
-  color:red;
-  font-size: 40px;
-}
 .treatmentImg {
   border-radius: 10%;
   height: 250px;
   width: 250px;
   float: left;
-  margin-right: 20px;
+  margin-right: 35px;
 }
 
 .season-body {
   padding: 6px;
+}
+
+.headerMain {
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.5)
 }
 
 .masthead {
