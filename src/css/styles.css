@@ -35,6 +35,26 @@ section {
   padding-right: 32px;
 }
 
+#pin {
+  width: 45px;
+  height: 60px;
+}
+
+#showImg {
+  border-radius: 10%;
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin-right: 16px;
+  color: white;
+  background-color: black;
+}
+
+#warning{
+  color:red;
+  font-size: 40px;
+}
+
 .game1Img, .game2Img, .game3Img, #map {
   border-radius: 2%;
 }
@@ -301,28 +321,13 @@ div .game2, div .game3 {
   margin-right: 35px;
 }
 
-#pin {
-  width: 45px;
-  height: 60px;
-}
-
-#showImg {
-  border-radius: 10%;
-  height: 250px;
-  width: 250px;
-  float: left;
-  margin-right: 16px;
-  color: white;
-  background-color: black;
-}
-
-#warning{
-  color:red;
-  font-size: 40px;
-}
-
 .season-body {
   padding: 6px;
+}
+
+.headerMain {
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.5)
 }
 
 .masthead {
