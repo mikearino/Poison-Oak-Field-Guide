@@ -282,7 +282,7 @@ div .game2, div .game3 {
   height: 250px;
   width: 250px;
   float: left;
-  margin-right: 25px;
+  margin-right: 35px;
 }
 .hiddenImg {
   display: none;
@@ -290,7 +290,15 @@ div .game2, div .game3 {
   height: 250px;
   width: 250px;
   float: left;
-  margin-right: 16px;
+  margin-right: 35px;
+}
+
+.treatmentImg {
+  border-radius: 10%;
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin-right: 35px;
 }
 
 #pin {
@@ -311,13 +319,6 @@ div .game2, div .game3 {
 #warning{
   color:red;
   font-size: 40px;
-}
-.treatmentImg {
-  border-radius: 10%;
-  height: 250px;
-  width: 250px;
-  float: left;
-  margin-right: 20px;
 }
 
 .season-body {
