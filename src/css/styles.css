@@ -298,6 +298,18 @@ div .game2, div .game3 {
   height: 60px;
 }
 
+/* .carouselPic {
+  height: 300px;
+} */
+
+#myCarousel {
+  /* height: 500px; */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 #showImg {
   border-radius: 10%;
   height: 250px;
