@@ -4,6 +4,10 @@
 
 #### _Authors: Alex Siegberg - Mike Lofgren - Nick Ramsey - Garland Lai_
 
+<p align="center">
+  <img src="pofg.gif">
+</p>
+
 ## Description
 
 _This is a web application that educates its users on how to identify and treat poison oak._
