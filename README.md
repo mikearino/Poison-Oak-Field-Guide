@@ -10,7 +10,7 @@ https://oak-fg.firebaseapp.com
 
 ## Description
 
-_This is a web application that educates its users on how to identify and treat poison oak._
+_This is a web application that educates its users on how to identify and treat poison oak. Deployed to Google Firebase._
 
 ## Setup/Installation
 
